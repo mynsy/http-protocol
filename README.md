@@ -1,6 +1,6 @@
 ## HTTP协议原理+实践
 
-### chapter1、导学
+### 导学
 - http method
 - http status code
 - 前端做的最多的关于http 协议的优化就是缓存，对于很多前端来说，做的最多优化可能就是Cache-Control: max-age = 100，对应的静态资源缓存100秒，但是谁知道可以给Cache-Control设置public、private来控制只是在客户端缓存，还是在代理服务器中缓存，must-revalidate缓存过期后必须要到服务端进行验证才能继续使用缓存，通过no-cache,no-store控制是否使用缓存
